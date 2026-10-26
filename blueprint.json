@@ -1,0 +1,7 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "steps": [
+    { "step": "activatePlugin", "pluginPath": "/wordpress/wp-content/plugins/client-invoices-lite/client-invoices-lite.php" },
+    { "step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; require '/demo-tests/seed.php';" }
+  ]
+}
